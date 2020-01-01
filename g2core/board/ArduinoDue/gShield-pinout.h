@@ -81,7 +81,7 @@
 #define OUTPUT8_PWM 0
 #define OUTPUT9_PWM 0
 #define OUTPUT10_PWM 0
-#define OUTPUT11_PWM 0
+#define OUTPUT11_PWM 0   
 #define OUTPUT12_PWM 0
 #define OUTPUT13_PWM 0
 
@@ -209,7 +209,7 @@ pin_number kInput11_PinNumber = 65;
 pin_number kInput12_PinNumber = 51;
 
 pin_number kSpindle_EnablePinNumber = 12;
-pin_number kSpindle_DirPinNumber    = -1;  // 13;
+pin_number kSpindle_DirPinNumber    = 13;    //-1;  // 13;
 pin_number kSpindle_PwmPinNumber    = 11;
 pin_number kSpindle_Pwm2PinNumber   = 9;
 pin_number kCoolant_EnablePinNumber = 57;
