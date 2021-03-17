@@ -220,7 +220,7 @@
 #define DI6_MODE                    NORMALLY_CLOSED
 //#define DI6_ACTION                  INPUT_ACTION_STOP
 #define DI6_ACTION                  INPUT_ACTION_NONE
-#define DI6_FUNCTION                INPUT_FUNCTION_LIMIT
+#define DI6_FUNCTION                INPUT_FUNCTION_PROBE      // used for tool length probe
 
 // Amin
 #define DI7_MODE                    IO_MODE_DISABLED
