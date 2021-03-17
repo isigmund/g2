@@ -196,7 +196,7 @@
 // Xmax
 #define DI2_MODE                    NORMALLY_CLOSED
 //#define DI2_ACTION                  INPUT_ACTION_STOP
-#define DI2_ACTION                  INPUT_ACTION_NONE
+#define DI2_ACTION                  INPUT_ACTION_ALARM     // trigger alarm when Xmax is hit
 #define DI2_FUNCTION                INPUT_FUNCTION_LIMIT
 
 // Ymin
@@ -208,7 +208,7 @@
 // Ymax
 #define DI4_MODE                    NORMALLY_CLOSED
 //#define DI4_ACTION                  INPUT_ACTION_STOP
-#define DI4_ACTION                  INPUT_ACTION_NONE
+#define DI4_ACTION                  INPUT_ACTION_ALARM    // trigger alarm when Xmax is hit
 #define DI4_FUNCTION                INPUT_FUNCTION_LIMIT
 
 // Zmin
