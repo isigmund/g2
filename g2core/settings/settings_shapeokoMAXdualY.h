@@ -86,6 +86,20 @@
 #define GCODE_DEFAULT_PATH_CONTROL  PATH_CONTINUOUS
 #define GCODE_DEFAULT_DISTANCE_MODE ABSOLUTE_DISTANCE_MODE
 
+// Coordinate systems
+#define G54_X_OFFSET 17
+#define G54_Y_OFFSET 50
+#define G54_Z_OFFSET 0
+
+#define G55_X_OFFSET 104
+#define G55_Y_OFFSET 200
+#define G55_Z_OFFSET 0
+
+#define G56_X_OFFSET 194
+#define G56_Y_OFFSET 350
+#define G56_Z_OFFSET 0
+
+
 // *** motor settings ************************************************************************************
 
 #define MOTOR_POWER_MODE            MOTOR_POWERED_IN_CYCLE  // default motor power mode (see cmMotorPowerMode in stepper.h)
