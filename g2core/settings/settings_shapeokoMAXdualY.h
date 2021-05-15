@@ -139,7 +139,7 @@
 #define X_SEARCH_VELOCITY           3000                    // xsv  minus means move to minimum switch
 #define X_LATCH_VELOCITY            100                     // xlv  mm/min
 #define X_LATCH_BACKOFF             4                       // xlb  mm
-#define X_ZERO_BACKOFF              4.5                     // xzb  mm
+#define X_ZERO_BACKOFF              4.5   + 8.8.            // xzb  mm  -  distance to backoff after homing
 
 #define Y_AXIS_MODE                 AXIS_STANDARD
 #define Y_VELOCITY_MAX              15000
@@ -153,7 +153,7 @@
 #define Y_SEARCH_VELOCITY           3000
 #define Y_LATCH_VELOCITY            100
 #define Y_LATCH_BACKOFF             4
-#define Y_ZERO_BACKOFF              69
+#define Y_ZERO_BACKOFF              69 + 9.7                // yzb  mm - distance to backoff after homing
 
 #define Z_AXIS_MODE                 AXIS_STANDARD
 #define Z_VELOCITY_MAX              1000
